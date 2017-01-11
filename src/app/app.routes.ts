@@ -8,7 +8,8 @@ import { HomeComponent } from './home/home.component';
 export const routes: Routes = [
   { path: 'contact', component: ContactComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'home', component: HomeComponent }
+  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(routes);

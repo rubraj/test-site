@@ -1,9 +1,9 @@
 
 img {
-  display: block;
+  display: inline;
   margin: 68px auto 47px;
   padding: 0;
   width: auto;
-	float: center;
+	float: left;
 	width: auto;
 }
