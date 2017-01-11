@@ -1,1 +1,43 @@
-<app-home></app-home>
+
+<!doctype html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rubin Rajbhandari</title>
+
+</head>
+<body>
+<div id="page">
+  <div id="header">
+    <div id="navigation">
+      <span id="mobile-navigation">&nbsp;</span>
+      <a href="index.html" class="logo"><img src="./assets/images/logo.png" alt=""></a>
+      <ul id="menu">
+        <li>
+          <a [routerLink]="['/home']">Home</a>
+        </li>
+        <li>
+          <a [routerLink]="['/about']">About</a>
+        </li>
+        <li>
+          <a [routerLink]="['/contact']">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="body" class="running">
+    <router-outlet></router-outlet>
+  </div>
+  <div id="footer">
+    <div class="connect">
+      <a href="https://twitter.com/Rubinraj/" target="_blank"><img class="twitter" src="./assets/images/twitter.jpeg"></a>
+      <a href="https://www.facebook.com/rubrajb/" target="_blank"><img class="facebook" src="./assets/images/fb.png"></a>
+      <p>&copy; 2017 www.rubinrajbhandari.com.np</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
